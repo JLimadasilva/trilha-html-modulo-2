@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Veterinaria</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h2><b>Navegação:</b></h2>
+                <ul><a href="template.html">Página Inicial</a></ul>
+                <ul><a href="sobre.html">O que fazemos?</a></ul>
+                <ul><a href="local.html">Localidade</a></ul>
+                <ul><a href="contato.html">Contato</a></ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="_imagens/poster_vet.jpg" alt="Banner da clinica veterinaria">
+            </div>
+    
+            <div class="content">
+                <h2>Contato:</h2>
+                <p>Contato/WhatsApp:</p>
+                <p>(91) 9 9999-9999</p>
+                
+                <table id="tHorarios">
+                    <caption><strong>Horarios de atendimento</strong></caption>
+                    <tr>
+                        <th>Serviços</th>
+                        <th>Segunda á Sexta</th>
+                        <th>Sábabos</th>
+                        <th>Feriados</th>
+                    </tr>
+                    <tr>
+                        <td>Cirurgia Geral</td>
+                        <td>08:00 ás 19:00</td>
+                        <td>08:00 ás 14:00</td>
+                        <td>08:00 ás 14:00</td>
+                    </tr>
+                    <tr>
+                        <td>Dermatologia</td>
+                        <td>08:00 ás 19:00</td>
+                        <td>08:00 ás 14:00</td>
+                        <td>08:00 ás 14:00</td>
+                    </tr>
+                    <tr>
+                        <td>Gastroenterologia</td>
+                        <td>08:00 ás 19:00</td>
+                        <td>--:--</td>
+                        <td>--:--</td>
+                    </tr>
+                    <tr>
+                        <td>Nefrologia</td>
+                        <td>08:00 ás 19:00</td>
+                        <td>--:--</td>
+                        <td>--:--</td>
+                    </tr>
+                </table>
+                
+                <fieldset><legend><strong>Nos deixe uma mensagem</strong></legend> 
+                    <form onreset="debug(event)">
+                        <label for="cNome"><p>Nome:<input type="text" name="tNome" id="cNome"></p></label>
+                        <label for="cIdade"><p>Idade:<input type="number" name="tIdade" id="cIdade"></p></label>
+                        <label for="cAss"><p>Assunto:<input type="text" name="tAss" id="cAss"></p></label>
+                        <label for="cMsg">Mensagem:</label><textarea id="cMsg" cols="30" rows="15"></textarea><br>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Redefinir</button>
+                   </form>
+                </fieldset>   
+
+            </div>
+    
+            <div class="footer">
+                <footer>
+                    <p><strong>Nos siga nas redes sociais</strong></p>
+                    <ul>
+                        <a href="https://github.com/JLimadasilva" target="_blank">Github</a><br>
+                        <a href="https://www.linkedin.com/in/joel-lima-da-silva-32705623a" target="_blank">Linkedin</a>
+                    </ul>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
